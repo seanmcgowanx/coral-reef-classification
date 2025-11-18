@@ -205,3 +205,46 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --------------------------------------------------------------------
+# Project-specific ignores for coral-reef-classification
+# --------------------------------------------------------------------
+
+# Jupyter checkpoints (already included in template, but safe)
+.ipynb_checkpoints/
+
+# Data: Only keep CSVs in data/raw/
+# Prevent accidental committing of large image files or parquets
+data/raw/*.png
+data/raw/*.jpg
+data/raw/*.jpeg
+data/raw/*.tif
+data/raw/*.tiff
+data/raw/*.bmp
+data/raw/*.parquet
+data/raw/*.zip
+data/raw/*.gz
+data/raw/*.tar
+
+# Processed data (generated files)
+data/processed/*
+!data/processed/**/*.csv     # allow CSV if you want some processed csv outputs
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment files (personal)
+.env
+.venv/
+*.env
+
+# Logs
+*.log
+
+# Byte-compiled / cached files (many are already in Python template)
+__pycache__/
+*.pyc
+
+# Cache directories
+.cache/
