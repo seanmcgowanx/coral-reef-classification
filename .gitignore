@@ -226,9 +226,11 @@ data/raw/*.zip
 data/raw/*.gz
 data/raw/*.tar
 
-# Processed data (generated files)
+# Ignore all processed data
 data/processed/*
-!data/processed/**/*.csv     # allow CSV if you want some processed csv outputs
+
+# But allow CSV files directly inside data/processed/
+!data/processed/*.csv
 
 # OS junk
 .DS_Store
