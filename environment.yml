@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - numpy
+  - numpy=1.26
   - pandas
   - matplotlib
   - seaborn
@@ -12,10 +12,14 @@ dependencies:
   - jupyterlab
   - ipykernel
   - tqdm
+  - boto3
+  - pytorch
+  - torchvision
+  - torchaudio
   - pip
   - pip:
-      - torch
-      - torchvision
-      - torchaudio
       - timm
-      - boto3
+      - transformers
+      - huggingface_hub
+      - safetensors
+
