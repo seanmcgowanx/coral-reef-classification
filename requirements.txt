@@ -1,4 +1,4 @@
-numpy==1.26.4
+numpy
 pandas
 matplotlib
 seaborn
@@ -7,13 +7,13 @@ pillow
 tqdm
 boto3
 
-# PyTorch (CPU/MPS safe for macOS, GPU safe for Colab)
 torch
 torchvision
 torchaudio
 
-# HuggingFace + timm stack
 timm
 transformers
 huggingface-hub
 safetensors
+
+iterative-stratification
