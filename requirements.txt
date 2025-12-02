@@ -3,17 +3,14 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+iterative-stratification
+
 pillow
-tqdm
 boto3
 
 torch
 torchvision
-torchaudio
-
-timm
+tqdm
 transformers
-huggingface-hub
-safetensors
 
-iterative-stratification
+
