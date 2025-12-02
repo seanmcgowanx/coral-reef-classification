@@ -50,6 +50,8 @@ conda activate coral-reef-classification
 ```
 Key libraries used: 
 - PyTorch + TorchVision
+- Tensorflow
+- Transformers (Huggingface)
 - boto3
 - numpy, pandas, matplotlib, seaborn
 

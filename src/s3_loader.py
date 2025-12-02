@@ -26,3 +26,4 @@ def get_image_s3(image_id: str, thumbnail: bool = False,
         return img
     except Exception as e:
         raise RuntimeError(f"Could not load image {image_id} from S3. Key tried: {key}. Error: {e}")
+
