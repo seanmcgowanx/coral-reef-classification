@@ -15,11 +15,8 @@ dependencies:
   - boto3
   - pytorch
   - torchvision
-  - torchaudio
   - pip
   - pip:
-      - timm
       - transformers
-      - huggingface_hub
-      - safetensors
+
 
