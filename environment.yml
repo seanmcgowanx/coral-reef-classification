@@ -15,6 +15,7 @@ dependencies:
   - boto3
   - pytorch
   - torchvision
+  - tensorflow
   - pip
   - pip:
       - transformers
