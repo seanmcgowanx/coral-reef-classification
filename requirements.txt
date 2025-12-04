@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+iterative-stratification
+
+pillow
+boto3
+
+torch
+torchvision
+tensorflow
+tqdm
+transformers
+
+

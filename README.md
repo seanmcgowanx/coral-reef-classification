@@ -33,8 +33,8 @@ These files describe image-level and point-level context. They are small enough 
 
 ## Methods Overview
 ### Models
-- CNN baseline models using standard deep learning architecture (VGG16, ResNet-50, EfficientNet).
-- Vision Transformer (ViT) using the `timm` library.
+- CNN baseline models using standard deep learning architecture with Tensorflow and Pytorch (ResNet-50, EfficientNet).
+- Vision Transformer (ViT) using google/vit-base-patch16-224-in21k from the huggingface library.
 ### Feature Engineering
 - MERMAID benthic attributes include over 170 possible labels.
 - We evaluate class frequency and select a feasible subset for training.
@@ -50,8 +50,9 @@ conda activate coral-reef-classification
 ```
 Key libraries used: 
 - PyTorch + TorchVision
+- Tensorflow
+- Transformers (Huggingface)
 - boto3
-- timm
 - numpy, pandas, matplotlib, seaborn
 
 ## Team Members
