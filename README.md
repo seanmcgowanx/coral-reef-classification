@@ -1,4 +1,4 @@
-# Deep Learning Approaches for Benthic Attribute Detection in Coral Reef Images
+# Deep Learning Approaches for Benthic Attribute Classification in Coral Reef Images
 This project explores coral reef image classification using deep learning. We use metadata and annotations from the MERMAID project along with underwater survey images stored in the public coral-reef-training S3 bucket. The goal is to compare a few baseline CNN models with a Vision Transformer and evaluate their performance in predicting benthic attributes. This is a multi label classification problem since each image can contain several benthic attributes at the same time rather than just one.<br>
 <br>
 All images are streamed directly from S3 at runtime and are not stored in this repository.
